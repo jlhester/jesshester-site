@@ -24,7 +24,7 @@ npm run dev      # local preview via wrangler dev
 npm run deploy   # push to Cloudflare Workers
 ```
 
-Auto-deploy via Cloudflare Workers Builds is not yet configured. Until it is, deploy manually after pushing.
+Auto-deploy via Cloudflare Workers Builds is configured — pushing to `main` triggers a deploy automatically.
 
 ## Conventions
 
