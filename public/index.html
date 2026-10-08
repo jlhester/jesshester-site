@@ -9,26 +9,14 @@
 <link rel="icon" href="data:,">
 <style>
   :root {
-    --paper: #F2F4F5;
-    --ink: #1B2430;
-    --graphite: #566273;
-    --rule: #C9D1D9;
-    --signal: #2B3FE0;
-    --signal-tint: #D9DEFA;
-    --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Georgia, serif;
+    --paper: #18171A;
+    --ink: #E8E3DC;
+    --graphite: #8A8178;
+    --rule: #2E2B28;
+    --signal: #C4622D;
+    --signal-tint: #2E1E14;
     --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     --cols: minmax(0, 17rem) minmax(0, 1fr);
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --paper: #121821;
-      --ink: #E7EBF0;
-      --graphite: #9AA6B6;
-      --rule: #2C3644;
-      --signal: #8F9CFF;
-      --signal-tint: #252C55;
-    }
   }
 
   * { box-sizing: border-box; }
@@ -56,19 +44,19 @@
 
   h1 {
     margin: 0;
-    font-family: var(--serif);
-    font-weight: 600;
+    font-family: var(--sans);
+    font-weight: 500;
     font-size: clamp(3rem, 9vw, 5.5rem);
     line-height: 1;
-    letter-spacing: -0.025em;
+    letter-spacing: -0.03em;
   }
 
   .lede {
     margin: 1.25rem 0 0;
     max-width: 34rem;
-    font-family: var(--serif);
-    font-size: clamp(1.35rem, 3vw, 1.75rem);
-    line-height: 1.35;
+    font-family: var(--sans);
+    font-size: clamp(1.25rem, 3vw, 1.6rem);
+    line-height: 1.4;
     color: var(--graphite);
   }
 
@@ -78,11 +66,11 @@
 
   h2 {
     margin: 0 0 0.75rem;
-    font-family: var(--serif);
+    font-family: var(--sans);
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 1.2;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
   }
 
   .text {
@@ -233,7 +221,7 @@
     <section class="block text" aria-labelledby="about">
       <h2 id="about">About</h2>
       <p>I was most recently at Netflix, where I co-designed the AI infrastructure for the company's semantic layer and built the MCP server that gives AI agents access to metrics and dimensions, with access controls. Before that, I spent six years on Netflix's internal data portal, including search across roughly 100 million entities.</p>
-      <p>Earlier, at SpaceX, I worked on telemetry systems and ground software. I was test lead and a mission control operator on several development Dragon missions.</p>
+      <p>Earlier, at SpaceX, I worked on telemetry systems and ground software. I co-designed and built a fault-tolerant pad control system for Starship test missions. I was test lead and a mission control operator on several development Dragon missions.</p>
     </section>
 
     <section class="block text" aria-labelledby="consulting">
